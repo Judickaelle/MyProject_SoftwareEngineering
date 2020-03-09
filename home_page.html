@@ -2,48 +2,54 @@
 <html>
 <title>Ent'raid ESAIP</title>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Ent'raid ESAIP is an association who want to help ESAIP's student to be part of the 4L Trophy." />
+<meta name="author" content="Judickaëlle Pelletier" />
 <link rel="stylesheet" href="home_page.css"/>
-<link rel="stylesheet" href="css.css"/>
-<link rel="stylesheet" href="font-awesome.css"/>
+<!--Bootstrap core CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!--FontAwesome CSS -->
 
 <body>
-
-<!-- Navbar (sit on top) -->
-<div class="ER-top">
-  <div class="ER-bar ER-white ER-card" id="myNavbar">
-    <a href="home_page.html" class="ER-bar-item ER-button ER-wide">LOGO</a>
-    <!-- Right-sided navbar links -->
-    <div class="ER-right ER-hide-small">
-      <a href="about_us.html" class="ER-bar-item ER-button"> ABOUT US</a>
-      <a href="teams.html" class="ER-bar-item ER-button"><i class="fa fa-user"></i> TEAMS</a>
-      <a href="Trophy.html" class="ER-bar-item ER-button"><i class="fa fa-th"></i> 4L TROPHY</a>
-      <a href="view_us.html" class="ER-bar-item ER-button"><i class="fa fa-usd"></i> VIEW US</a>
-      <a href="contact.html" class="ER-bar-item ER-button"><i class="fa fa-envelope"></i> CONTACT</a>
-	</div>
-	
-	 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-    <a href="javascript:void(0)" class="ER-bar-item ER-button ER-right ER-hide-large ER-hide-medium" onclick="ER_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="ER-sidebar ER-bar-block ER-black ER-card ER-animate-left ER-hide-medium ER-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="ER_close()" class="ER-bar-item ER-button ER-large ER-padding-16">Close ×</a>
-  <a href="about_us.html" onclick="ER_close()" class="ER-bar-item ER-button"> ABOUT US</a>
-  <a href="teams.html" onclick="ER_close()" class="ER-bar-item ER-button"> TEAMS</a>
-  <a href="Trophy.html" onclick="ER_close()" class="ER-bar-item ER-button"> TROPHY</a>
-  <a href="view_us.html" onclick="ER_close()" class="ER-bar-item ER-button"> VIEW US</a>
-  <a href="contact.html" onclick="ER_close()" class="ER-bar-item ER-button"> CONTACT</a>
-</nav>
+<header>
+	<!-- Navbar (sit on top) -->
+	<nav class= "navbar fixed-top navbar-expand-xl navbar-light bg-light">
+		<a class="navbar-brand" href="home_page.html">
+			<img src="pictures/ent_raid_logo.png" width="70" height="70" alt="Logo">
+		</a>
+		<!-- With a brand name shown on the left and toggler on the right and menu -->
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<div class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<a class="nav-link dropdown-toggle" href="about_us.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">The association</a>
+							<a class="dropdown-item" href="#">The school</a>
+						</div>
+					<a class="nav-link" href="teams.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TEAMS</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Currently</a>
+							<a class="dropdown-item" href="#">Archive</a>
+						</div>
+					<a class="nav-link" href="Trophy.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4L TROPHY</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Generalities</a>
+							<a class="dropdown-item" href="#">Les enfants du Désert</a>
+						</div>
+					<a class="nav-link disabled" href="view_us.html">VIEW US</a>
+					<a class="nav-link disabled" href="contact.html">CONTACT</a>
+				</li>
+			</div>
+	  </div>
+	</nav>
+</header>
 
 <div id="banniere_image">
 	</div>
 	
 <h1>Ent'raid ESAIP</h1>
 
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
